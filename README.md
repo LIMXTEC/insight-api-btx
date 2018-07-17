@@ -1,13 +1,13 @@
 # Insight API
 
-A BitCore blockchain REST and web socket API service for [Bitcore Node BitCore](https://github.com/BTXinsight/bitcore-node-btx).
+A BitCore blockchain REST and web socket API service for [Bitcore Node BitCore](https://github.com/LIMXTEC/bitcore-node-btx).
 
-This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/BTXinsight/insight-ui-btx.
+This is a backend-only service. If you're looking for the web frontend application, take a look at https://github.com/LIMXTEC/insight-ui-btx.
 
 ## Getting Started
 
 ```bashl
-git clone https://github.com/BTXinsight/bitcore-node-btx.git
+git clone https://github.com/LIMXTEC/bitcore-node-btx.git
 cd bitcore-node-btx
 npm install
 bitcore-node create mynode
@@ -20,7 +20,7 @@ The API endpoints will be available by default at: `http://localhost:3001/insigh
 
 ## Prerequisites
 
-- [Bitcore Node BitCore](https://github.com/BTXinsight/bitcore-node-btx)
+- [Bitcore Node BitCore](https://github.com/LIMXTEC/bitcore-node-btx)
 
 **Note:** You can use an existing BitCore data directory, however `txindex`, `addressindex`, `timestampindex` and `spentindex` needs to be set to true in `bitcore.conf`, as well as a few other additional fields.
 
@@ -76,7 +76,7 @@ To protect the server, insight-api has a built it query rate limiter. It can be 
     }
   }
 ```
-With all the configuration options available: https://github.com/BTXinsight/insight-api-btx/blob/master/lib/ratelimiter.js#L10-17
+With all the configuration options available: https://github.com/LIMXTEC/insight-api-btx/blob/master/lib/ratelimiter.js#L10-17
 
 Or disabled entirely with:
 ``` json
