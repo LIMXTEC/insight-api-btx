@@ -2,7 +2,7 @@
   "name": "insight-api-btx",
   "description": "A BitCore blockchain REST and web socket API service for Bitcore Node.",
   "version": "0.4.3",
-  "repository": "git://github.com/BTXinsight/insight-api-btx.git",
+  "repository": "git://github.com/LIMXTEC/insight-api-btx.git",
   "contributors": [
     {
       "name": "Gustavo Cortez",
@@ -46,9 +46,9 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/BTXinsight/insight-api-btx/issues"
+    "url": "https://github.com/LIMXTEC/insight-api-btx/issues"
   },
-  "homepage": "https://github.com/BTXinsight/insight-api-btx",
+  "homepage": "https://github.com/LIMXTEC/insight-api-btx",
   "license": "MIT",
   "keywords": [
     "insight",
@@ -69,8 +69,8 @@
   "bitcoreNode": "lib",
   "dependencies": {
     "async": "*",
-    "bitcore-lib-btx": "git://github.com/BTXinsight/bitcore-lib-btx#master",
-    "bitcore-message-btx": "git://github.com/BTXinsight/bitcore-message-btx#master",
+    "bitcore-lib-btx": "git://github.com/LIMXTEC/bitcore-lib-btx#master",
+    "bitcore-message-btx": "git://github.com/LIMXTEC/bitcore-message-btx#master",
     "body-parser": "^1.13.3",
     "compression": "^1.6.1",
     "lodash": "^2.4.1",
